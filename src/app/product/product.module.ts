@@ -10,10 +10,9 @@ const routes: Routes = [
     path: 'products', component: ProductComponent,
     children: [
       { path: '', component: ProductListComponent },
-      { path: 'detail', component: ProductDetailComponent }
+      { path: ':productId', component: ProductDetailComponent }
     ]
   },
-
 ]
 
 @NgModule({
