@@ -43,3 +43,4 @@ Thumbs.db
 
 # server config
 /server/config/dev.js
+/server/config/prod.js
